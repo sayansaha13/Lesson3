@@ -1,0 +1,138 @@
+html, body {
+	background: #50ddca; /* Beccapurple */
+	margin: 0;
+}
+header, h2, h3, h4, h5, h6, p {
+	color: black;
+	text-align: center;
+	margin: 2;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: rgb(13, 13, 14);
+}
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 100%;
+	width: 70%;
+/*	margin-top:0; 
+	margin-bottom:0;
+	margin-left:auto;
+	margin-right:auto;*/
+	margin: 0 auto;
+	padding: 2.5% 2.5% 0;
+	background:#F9FAE3 ;
+	line-height: 1.8;
+}
+h1 {
+	font: 2.2em Verdana, Geneva, sans-serif;
+	margin-bottom: .4em;
+	color: rgb(83, 104, 138);
+}
+.sayan {
+	font-weight:bold; 
+	font-size:2em;
+	text-align: center;
+  }
+h2 {
+	font: 1.5em Georgia, "Times New Roman", Times, serif;
+	margin-bottom: .2em;
+}
+h3 {
+
+	font-size: 1.2em;
+}
+ul {
+	font-style: italic;
+  }
+p {
+	margin-bottom: 1em;
+}
+.container {
+	position: relative;
+  }
+  
+  .center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 18px;
+  }
+  img { 
+	width: 100%;
+	height: auto;
+	opacity: 0.3;
+  }
+a {
+	color: rgb(184, 126, 84);
+}
+a:hover {
+	color: rgb(120, 97, 55);
+}
+pre {
+	font-size: 1.4em;
+	color: white;
+	padding: .5em 1em;
+	border-left: 1em solid #A68048;
+	background: #666;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	width: 80%;
+}
+pre.wrong {
+	border-left-color: red;
+}
+pre.correct {
+	border-left-color: green;
+}
+dt {
+	font-style: italic;
+	font-size:1.2em;
+}
+dd {
+	margin-bottom: 1.4em;
+}
+
+td, th {
+	padding: 10px;
+}
+.center {
+	text-align: center;
+}
+header h2 {
+	padding-bottom: .1em;
+	border-bottom: 1px solid rgb(8, 8, 8);
+	font: 1em italic;
+}
+aside {
+	padding: 0.8em;
+	background:rgb(106, 156, 230);
+	float: right;
+	color: rgb(19, 17, 17);
+	margin-bottom: 1em;
+}
+p::first-line {
+	background-color: yellow;
+}
+section {
+	border :2px darkgreen;
+	background-color: wheat;
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+}
+footer {
+	border-top: 1px solid gray;
+	text-align: right;
+	font-size: .8em;
+	line-height: 4em;
+	margin-top: 1em;
+}
+
+
+ 
